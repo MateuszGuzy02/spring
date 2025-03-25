@@ -1,0 +1,6 @@
+**/target
+**/*.iml
+**/.idea
+
+/mysql/
+/docker-vod/mysql/data/

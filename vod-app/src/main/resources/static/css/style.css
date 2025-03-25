@@ -1,0 +1,282 @@
+body {
+    text-align: center;
+    font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
+    margin: 0;
+    background-image: url("https://getreelcinemas.com//wp-content/uploads/2015/02/Background-Narrow.jpg");
+    background-position: center -80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-color: black;
+}
+
+a {
+    color: #ffa91f !important;
+    font-weight: normal;
+    text-decoration: none;
+
+}
+
+
+h1 {
+    color: green;
+    font-weight: lighter;
+}
+
+header {
+    font-family: Orbitron;
+}
+
+header a {
+    z-index: 1000;
+}
+
+header h1 {
+    border-right: 3px solid black;
+    color: #7b1b18;
+    background-color: #ffa91f;
+    float: left;
+    margin: 0;
+    padding: 20px 40px;
+}
+
+strong {
+    color: green;
+}
+
+section {
+    font-size: 1.5em;
+}
+
+
+header {
+    background-color: #ffa91f;
+    top: 0;
+    width: 100%;
+    position: fixed;
+    box-shadow: 0px 3px 65px 0px #7b1b18;
+}
+
+header img {
+    height: 50px;
+    vertical-align: bottom;
+}
+
+
+header h2 {
+    color: #7b1b18;
+    font-size: 2em;
+    font-weight: lighter;
+    margin: 0;
+    overflow: hidden;
+    padding: 20px;
+    pointer-events: none;
+    position: fixed;
+    width: 100%;
+}
+
+header h2 span {
+    color: #7b1b18;
+}
+
+header h3 {
+    float: right;
+    padding-right: 20px;
+    font-weight: normal;
+    color: #a00;
+}
+
+section {
+    margin-top: 200px;
+}
+
+section table {
+    border-bottom: 10px solid #7b1b18;
+}
+
+table {
+    margin: 0 auto;
+    text-align: center;
+    border-spacing: 0;
+
+}
+
+
+td {
+    padding: 20px;
+    font-weight: lighter;
+    font-size: 1.7em;
+}
+
+div#orderTable > table td, div#orderTable > table th {
+    font-size: 1.1em;
+    font-weight: lighter;
+    padding: 10px;
+}
+
+th {
+    background-color: #ffa91f;
+    color: #7b1b18;
+    font-family: Orbitron;
+    font-size: 1.7em;
+    font-weight: normal;
+    padding: 20px;
+}
+
+tr:nth-child(2n+2) td, tr:nth-child(2n+2) td a {
+    color: #ffd084;
+}
+
+tr td, tr td a {
+    color: #ffd084;
+    text-align: left;
+}
+
+
+tr {
+    background-color: rgb(27 24 24);
+}
+
+tr:nth-child(2n+2) {
+    background-color: rgba(1, 1, 1, 0.5);
+}
+
+td:hover img {
+    -webkit-transform: scale(1.25); /* Safari and Chrome */
+    -moz-transform: scale(1.25); /* Firefox */
+    -ms-transform: scale(1.25); /* IE 9 */
+    -o-transform: scale(1.25); /* Opera */
+    transform: scale(1.25);
+}
+
+td img {
+    height: 50px;
+}
+
+.encourage th {
+    color: black;
+}
+
+.link {
+    background-color: #402;
+    color: white;
+    float: right;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 1px;
+    padding: 5px;
+}
+
+
+.link:hover {
+    cursor: pointer;
+}
+
+#totalPrice {
+    float: left;
+}
+
+#orders {
+    bottom: 0;
+    position: fixed;
+    right: 0;
+}
+
+#orderTable {
+    clear: both;
+}
+
+.circle {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 50%;
+    font-weight: bolder;
+    height: 20px;
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: middle;
+    width: 20px;
+    padding: 3px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+#orderTable .circle {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 50%;
+    font-weight: bolder;
+    height: 20px;
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: middle;
+    width: 20px;
+    padding: 3px;
+    font-weight: bold;
+}
+
+.action:hover {
+    cursor: pointer;
+}
+
+
+section.no-margin {
+    margin-top: 10px;
+}
+
+section.no-margin p {
+    color: #7b1b18;
+}
+
+.search {
+    /* width: 80px; */
+    /* height: 10px; */
+    background: url(../img/search.png);
+    background-size: contain;
+    padding: 20px;
+    /* line-height: 1px; */
+    font-size: 0px;
+    text-align: center;
+}
+
+.search-container {
+    text-align: center;
+}
+
+.rating {
+    font-size: 18px;
+    text-align: center;
+}
+
+table a {
+    color: blue !important;
+}
+
+.encourage a {
+    color: blue !important;
+}
+
+footer {
+    bottom: 0;
+    color: #402;
+    left: 0;
+    padding: 10px;
+    position: absolute;
+    background-color: rgba(1, 1, 1, 0.7);
+}
+
+footer a {
+    color: #402;
+}
+
+.action {
+    background-color: #402;
+    height: 20px;
+    margin: 0px auto;
+    text-align: center;
+    width: 20px;
+    padding: 3px;
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+}

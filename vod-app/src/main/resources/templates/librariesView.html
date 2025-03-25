@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>VOD</title>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+    <link rel="stylesheet" th:href="@{/css/style.css}"/>
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet"/>
+</head>
+<body>
+<header>
+    <a href="./"><h1>Pix</h1></a>
+    <h2 th:text="${title}"></h2>
+    <h3>
+    </h3>
+</header>
+<section>
+
+    <table>
+        <tr>
+            <th>Logo</th>
+            <th>Name</th>
+            <th>Books</th>
+        </tr>
+        <tr th:each="l : ${libraries}">
+            <td>
+                <img th:src="${l.logo}"/>
+            </td>
+            <td th:text="${l.name}"></td>
+            <td class="search-container">
+                <a class="search" th:href="@{/books?libraryId={id}(id=${l.id})}"></a>
+            </td>
+        </tr>
+    </table>
+
+</section>
+<div id="orders">
+
+</div>
+<footer>
+    ${tip}
+</footer>
+
+</body>
+</html>

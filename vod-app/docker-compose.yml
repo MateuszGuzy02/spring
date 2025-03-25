@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  mysql-books:
+    image: mysql:8.0
+    cap_add:
+      - SYS_NICE
+    restart: always
+    environment:
+      - MYSQL_DATABASE=vod
+      - MYSQL_ROOT_PASSWORD=mysql
+    ports:
+      - '3307:3306'
+    volumes:
+      - ./mysql/data:/var/lib/mysql
